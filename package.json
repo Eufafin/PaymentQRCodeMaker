@@ -1,0 +1,25 @@
+{
+	"scripts": {
+		"dev": "npx nodemon --exec tsx src/index.ts",
+		"build": "npx tsc",
+		"serve": "node dist/index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.6",
+		"express": "^5.2.1",
+		"helmet": "^8.3.0",
+		"morgan": "^1.11.0",
+		"nodemon": "^3.1.14",
+		"qrcode": "^1.5.4"
+	},
+	"devDependencies": {
+		"@tsconfig/node-lts": "^24.0.1",
+		"@tsconfig/node-ts": "^23.6.4",
+		"@types/express": "^5.0.6",
+		"@types/node": "^26.2.0",
+		"@types/qrcode": "^1.5.6",
+		"tsc-alias": "^1.9.2",
+		"tsx": "^4.23.12",
+		"typescript": "^7.0.2"
+	}
+}
